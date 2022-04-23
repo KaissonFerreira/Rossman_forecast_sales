@@ -32,24 +32,25 @@ Diretor financeiro (CFO) da Rossman.
 # Project Organization
 
 ```
+├── poetry.lock             <- Packges and dependencies.
+├── pyproject.toml          <- Configuration of the project
 ├── AUTHORS.md              <- List of developers and maintainers.
 ├── CHANGELOG.md            <- Changelog to keep track of new features and fixes.
 ├── CONTRIBUTING.md         <- Guidelines for contributing to this project.
 ├── LICENSE.txt             <- License as chosen on the command-line.
 ├── README.md               <- The top-level README for developers.
-├── code                    
-|     ├── configs                <- Directory for configurations of model & application.
-|     ├── notebooks              <- Jupyter notebooks. Naming convention is a number (for
-│     |                             ordering), the creator's initials and a description,
-│     |                             e.g. `1.0-initial-data-exploration`.
-|     ├── scripts                 <- Analysis and production scripts which import the
-|     └──                              actual PYTHON_PKG, e.g. train_model.
+├── configs                <- Directory for configurations of model & application.
+├── notebooks              <- Jupyter notebooks. Naming convention is a number (for
+│     |                       ordering), the creator's initials and a description,
+│     └──                      e.g. `1.0-initial-data-exploration`.
+├── scripts                 <- Analysis and production scripts which import the
+|     └──                       actual PYTHON_PKG, e.g. train_model.
 ├── data
 │   ├── external            <- Data from third party sources.
 │   ├── interim             <- Intermediate data that has been transformed.
 │   ├── processed           <- The final, canonical data sets for modeling.
 │   └── raw                 <- The original, immutable data dump.
-├── docs                    <- Directory for documentation of the project in txt or docx.
+└──  docs                    <- Directory for documentation of the project in txt or docx.
 
 
 ```
