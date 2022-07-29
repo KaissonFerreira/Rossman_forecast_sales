@@ -15,9 +15,7 @@ __pycache__/*
 .DS_Store
 
 # Project files
-.ropeproject
-.project
-.pydevproject
+
 .settings
 .idea
 .vscode
