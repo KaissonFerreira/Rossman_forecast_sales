@@ -8,6 +8,7 @@ authors = ["KaissonFerreira <kaysson_17@hotmail.com>"]
 python = "^3.9"
 pandas = "^1.4.2"
 sklearn = "^0.0"
+Boruta = "^0.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
