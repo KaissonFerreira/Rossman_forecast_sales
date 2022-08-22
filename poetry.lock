@@ -1147,10 +1147,29 @@ python-versions = "*"
 [package.dependencies]
 notebook = ">=4.4.1"
 
+[[package]]
+name = "xgboost"
+version = "1.6.1"
+description = "XGBoost Python Package"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+numpy = "*"
+scipy = "*"
+
+[package.extras]
+dask = ["dask", "pandas", "distributed"]
+datatable = ["datatable"]
+pandas = ["pandas"]
+plotting = ["graphviz", "matplotlib"]
+scikit-learn = ["scikit-learn"]
+
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "144efe3df0ba3866ff863e1dbf594ed2dacadf0a1cfed066b726afec6f71cd82"
+content-hash = "8d3ddf195242346b4461f36f9d6694ba0ada9ea2fd70bf46c1be2efd9c02123f"
 
 [metadata.files]
 appnope = [
@@ -1556,3 +1575,4 @@ webencodings = [
     {file = "webencodings-0.5.1.tar.gz", hash = "sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923"},
 ]
 widgetsnbextension = []
+xgboost = []

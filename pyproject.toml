@@ -9,6 +9,7 @@ python = "^3.9"
 pandas = "^1.4.2"
 sklearn = "^0.0"
 Boruta = "^0.3"
+xgboost = "^1.6.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
